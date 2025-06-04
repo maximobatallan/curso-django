@@ -8,7 +8,7 @@ Formulario Productos
 {% block content %}
 
 
-<h2>{% if form.instace.pk %} Editar {% else %} Crear {% endif %} </h2>
+<h2>{% if form.instance.pk %} Editar {% else %} Crear {% endif %} </h2>
 
 <form method="post">
     {% csrf_token %}
